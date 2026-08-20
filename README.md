@@ -1,12 +1,11 @@
 # Music Application Playwright Tests
 
-This project contains end-to-end tests for a music application built with vanilla JavaScript and served locally. The tests are written with Playwright and cover authentication, navigation, and CRUD workflows.
-
-This project was developed as part of the Front-End Technologies Basics course. The app includes end-to-end tests written using the provided test cases for the course assignment.
+Playwright end-to-end tests for a locally served vanilla JavaScript music app, covering authentication, navigation, and album CRUD workflows. Created for the Front-End Technologies Basics course.
 
 ## Project Overview
 
 The application provides a simple music catalog experience where users can:
+
 - register and log in
 - browse albums
 - search albums
@@ -20,11 +19,13 @@ The application provides a simple music catalog experience where users can:
 ## Installation
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Start the application server:
+
    ```bash
    npm run server
    ```
@@ -44,6 +45,7 @@ The application provides a simple music catalog experience where users can:
 ## Test Structure
 
 Tests are located in the `tests` folder and currently cover:
+
 - authentication flow
 - navbar navigation
 - CRUD album operations
